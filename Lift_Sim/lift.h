@@ -12,7 +12,9 @@ private:
     bool doorOpen;
     bool motorUp;
     bool motorDown;
+    int callLocation;
 public:
+    void setPosition(int position);
     void setMotorUp();
     void setMotorDown();
     void ToPosition();
